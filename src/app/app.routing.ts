@@ -10,9 +10,10 @@ export const routes : Routes =[
     {path:'pages',component:ThemeComponent,
     children:[
         {path:'',
-        loadChildren:'./pages/dashboard/dashboard.module#DashboardModule'}
-    
-    ]}
+        loadChildren:'./pages/dashboard/dashboard.module#DashboardModule'},
+        {path:'',
+         loadChildren:'./pages/estudiante/estudiante.module#EstudianteModule'}
+        ]}
 ]
 
 @NgModule ({

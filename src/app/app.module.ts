@@ -7,11 +7,14 @@ import { LoginComponent } from './login/login.component';
 import { ThemeComponent } from './theme/theme.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ThemeComponent,
+
+    
     
   ],
   imports: [
